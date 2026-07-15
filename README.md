@@ -105,7 +105,7 @@ LeadFlow-AI
 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/LeadFlow-AI.git
+git clone https://github.com/Nekhilesh-Agarwal/LeadFlow-AI.git
 ```
 
 2. Import the workflow into n8n.
@@ -124,15 +124,18 @@ git clone https://github.com/YOUR_USERNAME/LeadFlow-AI.git
 
 ### Landing Page
 
-(Add Screenshot)
+<img width="1821" height="877" alt="image" src="https://github.com/user-attachments/assets/71141f09-2012-4159-ab26-b1f15b79ea0b" />
+
 
 ### n8n Workflow
 
-(Add Screenshot)
+<img width="1392" height="597" alt="image" src="https://github.com/user-attachments/assets/d0c58e29-63bc-4c4c-aad1-0a642896c4b3" />
+
 
 ### Generated Leads
 
-(Add Screenshot)
+<img width="1132" height="700" alt="image" src="https://github.com/user-attachments/assets/afca63a2-1ab8-44e6-b639-63051d6f1583" />
+
 
 ---
 
