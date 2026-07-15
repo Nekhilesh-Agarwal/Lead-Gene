@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LeadFlow AI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="blob b1"></div><div class="blob b2"></div>
+<nav><div class="logo">⚡ LeadFlow AI</div><a href="#form">Launch</a></nav>
+
+<section class="hero">
+<div class="left">
+<div class="pill">AI Powered B2B Automation</div>
+<h1>Generate Qualified Business Leads in Seconds.</h1>
+<p>Search businesses by category and PIN code, generate WhatsApp outreach, and populate Google Sheets automatically.</p>
+<div class="stats">
+<div><h2>1M+</h2><span>Businesses</span></div>
+<div><h2>98%</h2><span>Coverage</span></div>
+<div><h2>&lt;30s</h2><span>Avg Time</span></div>
+</div>
+</div>
+
+<div class="card" id="form">
+<h2>Start Search</h2>
+<label>Business Type</label>
+<input id="businessType" placeholder="Furniture Manufacturer">
+<label>PIN Code</label>
+<input id="pinCode" placeholder="700028">
+<label>Maximum Leads <span id="leadValue">25</span></label>
+<input id="maxLeads" type="range" min="5" max="100" value="25" oninput="leadValue.innerText=this.value">
+<button id="btn" onclick="generate()">Generate Leads</button>
+<div class="progress"><div id="bar"></div></div>
+<div id="status"></div>
+</div>
+</section>
+
+<section class="features">
+<div class="feature">🔍<h3>Lead Discovery</h3><p>Google Maps business search.</p></div>
+<div class="feature">📊<h3>CRM Ready</h3><p>Google Sheets integration.</p></div>
+<div class="feature">💬<h3>WhatsApp</h3><p>One-click outreach links.</p></div>
+</section>
+
+<script src="script.js"></script>
+</body></html>
